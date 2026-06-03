@@ -1,0 +1,4 @@
+body { background-color: #f4f6f9; }
+.navbar-firjan { background-color: #003366; }
+.card-stats { border: none; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.05); }
+.table-container { background: white; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); padding: 20px; }

@@ -1,0 +1,20 @@
+body { background-color: #f4f6f9; }
+.card { border-radius: 15px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); }
+.header-firjan { background-color: #0056b3; color: white; border-top-left-radius: 15px; border-top-right-radius: 15px; }
+#secao_cine { display: none; background-color: #fff3cd; border: 1px solid #ffeeba; }
+
+.preview-container {
+	display: none;
+	max-width: 100%;
+	max-height: 200px;
+	overflow: hidden;
+	border: 2px dashed #dee2e6;
+	border-radius: 8px;
+	padding: 5px;
+	background-color: #f8f9fa;
+}
+.preview-container img {
+	max-height: 186px;
+	object-fit: contain;
+	border-radius: 6px;
+}

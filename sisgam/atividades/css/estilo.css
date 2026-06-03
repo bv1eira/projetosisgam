@@ -1,0 +1,52 @@
+body { background-color: #f4f6f9; }
+.navbar-firjan { background-color: #003366; }        
+
+.card-evento {
+    border: none;
+    border-radius: 16px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    overflow: hidden;
+    background-color: #ffffff;
+}
+.card-evento:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.12);
+}
+.img-container {
+    position: relative;
+    height: 180px;
+    width: 100%;
+    background-color: #e9ecef;
+}
+.card-evento-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.badge-eixo {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    background-color: rgba(0, 51, 102, 0.9);
+    color: white;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 0.75rem;
+    font-weight: bold;
+    backdrop-filter: blur(4px);
+}
+.card-body-evento {
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+.meta-info {
+    font-size: 0.85rem;
+    color: #6c757d;
+    margin-bottom: 0.5rem;
+}
